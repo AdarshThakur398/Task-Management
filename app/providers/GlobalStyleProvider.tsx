@@ -6,9 +6,9 @@ interface Props {
 }
 const GlobalStyleProvider = ({children} : Props) => {
   return (
-    <><GlobalStyles>
+    <GlobalStyles>
       {children}</GlobalStyles>
-    </>
+    
   )
 }
 
