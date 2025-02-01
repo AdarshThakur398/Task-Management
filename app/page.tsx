@@ -1,11 +1,11 @@
 import Image from "next/image";
-
+import Tasks from "./components/Tasks/Tasks";
 export default function Home() {
   return (
-   <div>
-    <main>
-      <h1>content</h1>
-    </main>
-    </div>
+   
+  
+      <Tasks/>
+    
+    
   );
 }
